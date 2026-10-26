@@ -1,0 +1,11 @@
+{
+  "nodeModulesDir": "auto",
+  "compilerOptions": {
+    "strict": true
+  },
+  "importMap": "./import_map.json",
+  "tasks": {
+    "start": "deno run --allow-run --allow-net --allow-read --allow-write --allow-env --allow-sys atrium.ts",
+    "dev":   "deno run --watch --allow-net --allow-read --allow-env --env --allow-sys atrium.ts"
+  }
+}

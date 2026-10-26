@@ -1,0 +1,10 @@
+_wildcard.*.pem
+.env
+node_modules/*
+**/.deno/
+core/chambers/*/*
+!core/chambers/domo/*
+import_map.json
+chambers.json
+**/certs/
+deno.lock
